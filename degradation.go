@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/xto-email/go-domainsec"
+	"github.com/gomatic/go-domainsec"
 )
 
 // domainReChecker re-validates whether a sender domain still meets the security
@@ -66,7 +66,7 @@ func (d DegradationChecker) evaluate(ctx context.Context, a Alias) {
 		d.logger.Error("degradation re-check failed", "sender", a.SenderDomain, "error", err)
 		return
 	}
-	if report.AllowsAliasCreation() {
+	if report.MeetsSecurityFloor() {
 		return
 	}
 	if err := d.store.Disable(ctx, a.Subdomain); err != nil {

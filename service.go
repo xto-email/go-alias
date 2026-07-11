@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/gomatic/go-clock"
-	"github.com/xto-email/go-domainsec"
+	"github.com/gomatic/go-domainsec"
 )
 
 // domainChecker is the subset of *domainsec.Service the alias Service depends
@@ -106,7 +106,7 @@ func (s Service) assertDomainSecure(ctx context.Context, senderDomain string) er
 	if err != nil {
 		return ErrCheckDomainSecurity.With(err)
 	}
-	if !report.AllowsAliasCreation() {
+	if !report.MeetsSecurityFloor() {
 		return ErrDomainSecurity.With(
 			nil,
 			fmt.Sprintf("sender=%s DKIM=%v DMARC=%s", senderDomain, report.HasDKIM, report.DMARCPolicy),

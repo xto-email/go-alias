@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xto-email/go-domainsec"
+	"github.com/gomatic/go-domainsec"
 )
 
 // fakeReChecker returns a scripted report (or error) per sender domain.

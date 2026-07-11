@@ -4,10 +4,10 @@ go 1.26.4
 
 require (
 	github.com/gomatic/go-clock v0.1.0
+	github.com/gomatic/go-domainsec v0.1.0
 	github.com/gomatic/go-error v0.3.4
 	github.com/jackc/pgx/v5 v5.10.0
 	github.com/stretchr/testify v1.11.1
-	github.com/xto-email/go-domainsec v0.1.0
 )
 
 require (

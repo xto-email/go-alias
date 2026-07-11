@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/gomatic/go-clock"
+	"github.com/gomatic/go-domainsec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xto-email/go-domainsec"
 )
 
 // fakeStore is an in-memory Store that records calls and returns
