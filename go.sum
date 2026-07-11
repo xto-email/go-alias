@@ -2,6 +2,8 @@ github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ3
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/gomatic/go-clock v0.1.0 h1:iRyg926wLKOBszpOGmdtSD30/DSjDS6zbaGOXwWB7nE=
+github.com/gomatic/go-clock v0.1.0/go.mod h1:h1l7lMjiF35G+XlLBRaVML14bw2xfMRI0pnC5GEHdpg=
 github.com/gomatic/go-error v0.3.4 h1:LtzAxnOgEqTYTIeqwrOwIAYHow4mYMOfVpwcOPjPffY=
 github.com/gomatic/go-error v0.3.4/go.mod h1:vH7CFid9QE33lC7DQAjEajERg85PtTQzM8+pGTS5rac=
 github.com/jackc/pgpassfile v1.0.0 h1:/6Hmqy13Ss2zCq62VdNG8tM1wchn8zjSGOBJ6icpsIM=
@@ -25,8 +27,6 @@ github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UV
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/xto-email/go-clock v0.1.0 h1:+WPXIiREXcGCKu2KGe6NzPCGZmU2Pga1GI75cwqKia0=
-github.com/xto-email/go-clock v0.1.0/go.mod h1:2B9I8zO8i/gpB+kgbV2gaGuYO3A5HAgEEMdRgoTL/l0=
 github.com/xto-email/go-domainsec v0.1.0 h1:6C39eq5eduJbMSJ2I0cinnsJoPnpDIamIA+dF2WoFno=
 github.com/xto-email/go-domainsec v0.1.0/go.mod h1:EeySepMNL9zxctr/pte7vL66gBZhCq/GKgz/Q8CYEus=
 golang.org/x/sync v0.17.0 h1:l60nONMj9l5drqw6jlhIELNv9I0A4OFgRsG9k2oT9Ug=

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/gomatic/go-clock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xto-email/go-clock"
 )
 
 func TestAlias_BurnerMustHaveExpiration(t *testing.T) {

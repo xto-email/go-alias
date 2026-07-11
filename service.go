@@ -14,7 +14,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/xto-email/go-clock"
+	"github.com/gomatic/go-clock"
 	"github.com/xto-email/go-domainsec"
 )
 
